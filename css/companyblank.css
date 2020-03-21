@@ -238,6 +238,8 @@ div.survey {
     }
 }
 
+@media (max-width: 860px) {
+
 @media (max-height: 669px) {
     div.survey {
         max-height: 580px;
@@ -279,6 +281,8 @@ div.survey {
     div.survey {
         max-height:230px
     }
+}
+
 }
 
 div.survey.start {
