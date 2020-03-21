@@ -218,8 +218,10 @@ div.survey {
 }
 
 @media (max-width: 820px) {
-    width: 90%;
-    margin: 110px 5% 0;
+    .pulse-div {
+        width: 90%;
+        margin: 110px 5% 0;
+    }
 }
 
 @media (min-width: 861px) {
