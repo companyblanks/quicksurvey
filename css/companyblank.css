@@ -161,7 +161,7 @@ div.unlock-speedrun.completed span:after {
     div.survey-current-progress {
         width:calc(90%);
         margin: 0 5%;
-        top: 9px
+        top: -40px;
     }
 }
 
@@ -220,7 +220,7 @@ div.survey {
 @media (max-width: 820px) {
     .pulse-div {
         width: 90%;
-        margin: 110px 5% 0;
+        margin: -50px 5% 0;
     }
 }
 
@@ -233,7 +233,8 @@ div.survey {
 @media (max-width: 860px) {
     div.survey {
         max-height:540px;
-        max-height: 370px
+        max-height: 630px;
+        height: 90%;
     }
 }
 
@@ -265,15 +266,16 @@ div.survey:not(.end) .please-share {
 
 @media (max-width: 860px) {
     div.survey {
-        width:calc(90% - 90px);
-        margin: 35px 5% 0
+        width: 90%;
+        margin: 35px 0 0;
+        padding: 0 5%;
     }
 }
 
 @media (max-width: 400px) {
     div.survey {
-        width:calc(90% - 70px);
-        padding-right: 35px
+        width: calc(95% - 35px);
+        padding-right: 35px;
     }
 }
 
