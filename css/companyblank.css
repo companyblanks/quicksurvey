@@ -153,7 +153,8 @@ div.unlock-speedrun.completed span:after {
 
 @media (min-width: 861px) {
     div.survey-current-progress {
-        top:82px
+        top:82px;
+        top: -18px;
     }
 }
 
@@ -227,6 +228,12 @@ div.survey {
 @media (min-width: 861px) {
     div.survey {
         margin-top:110px;
+    }
+
+    @media (max-height: 710px) {
+        div.survey.random, div.survey.chosen, div.survey.optional, div.survey.completed, div.survey.end  {
+            margin-top: -90px;
+        }
     }
 }
 
@@ -451,8 +458,12 @@ div.survey {
     /*animation:
      1.25s infinite cubic-bezier(0.6, 0, 0, 1);*/
     position: relative;
+    /* overflow: auto; */
 }
 
+div.survey:not(.end) {
+    overflow: auto;
+}
 
 div.survey div.section div.question {
     margin-top: 27px
