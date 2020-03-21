@@ -217,6 +217,10 @@ div.survey {
     margin: 110px 15% 0;
 }
 
+@media (max-width: 820px) {
+    width: 90%;
+    margin: 110px 5% 0;
+}
 
 @media (min-width: 861px) {
     div.survey {
