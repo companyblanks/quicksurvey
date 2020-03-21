@@ -238,6 +238,37 @@ div.survey {
     }
 }
 
+@media (max-height: 669px) {
+    div.survey {
+        max-height: 580px;
+    }
+}
+
+@media (max-height: 620px) {
+    div.survey {
+        max-height: 500px;
+    }
+}
+
+@media (max-height: 540px) {
+    div.survey {
+        max-height: 480px;
+    }
+}
+
+@media (max-height: 520px) {
+    div.survey {
+        max-height: 460px;
+    }
+}
+
+@media (max-height: 500px) {
+    div.survey {
+        max-height: 360px;
+    }
+}
+
+
 @media (max-width: 860px) {
     div.survey {
         margin-top:-10px
